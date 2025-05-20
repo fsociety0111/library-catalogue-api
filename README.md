@@ -14,3 +14,11 @@ A RESTful API for managing a library catalogue, including books, authors, catego
 - OpenAPI (Swagger)
 - JSON
 - JWT (Authentication)
+
+## API Documentation
+
+See [API_SPEC.md](./API_SPEC.md) for full API structure and descriptions.
+
+## Authentication
+
+The API uses OAuth 2.0 with JWT tokens. Include the token in the `Authorization` header:
